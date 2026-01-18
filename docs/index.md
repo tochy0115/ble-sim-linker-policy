@@ -1,6 +1,6 @@
-# Privacy Policy for BLE Sim Linker
+# Privacy Policy for CB Interaction Viewer
 
-This Privacy Policy describes how **BLE Sim Linker** (the "App") handles user information.
+This Privacy Policy describes how **CB Interaction Viewer** (the "App") handles user information.
 
 ---
 
@@ -21,10 +21,9 @@ Specifically, the App does **not** collect any of the following:
 
 ## 2. App Functionality and Local Communication
 
-The App is a development support tool that replaces CoreBluetooth in apps running on the iPhone Simulator in Xcode with a mock implementation.  
-Bluetooth communication is instead handled by **BLE Sim Linker running on macOS**.
+The App is a developer tool that visualizes real-time communication between BLE devices and a mobile device simulator running on a PC, helping developers efficiently build and debug applications or devices..
 
-Communication between the simulator app and BLE Sim Linker is performed entirely within the local environment using **local TCP/IP communication via the loopback interface (127.0.0.1)**.  
+Communication between the mobile device simulator app and CB Interaction Viewer is performed entirely within the local environment using **local TCP/IP communication via the loopback interface (127.0.0.1)**.  
 Only technical data required for CoreBluetooth operations is exchanged.
 
 ---
